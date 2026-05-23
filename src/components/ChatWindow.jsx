@@ -3,7 +3,7 @@ import Message from "./Message";
 import InputBox from "./InputBox";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://chat-db-b775.onrender.com");
 
 function ChatWindow() {
   const [messages, setMessages] = useState({});
